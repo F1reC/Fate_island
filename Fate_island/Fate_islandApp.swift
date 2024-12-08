@@ -25,7 +25,7 @@ struct Fate_islandApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WelcomeView()
         }
         .modelContainer(sharedModelContainer)
     }
